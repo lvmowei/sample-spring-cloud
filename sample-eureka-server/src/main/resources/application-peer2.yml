@@ -1,5 +1,5 @@
 server:
-  port:1112
+  port: 1112
 
 spring:
   application:
@@ -10,4 +10,6 @@ eureka:
     hostname: peer2
   client:
     serviceUrl:
-      defaultZone: http://localhost:1111/eureka/
+      defaultZone: http://peer1:1111/eureka/
+  server:
+    enable-self-preservation: false
