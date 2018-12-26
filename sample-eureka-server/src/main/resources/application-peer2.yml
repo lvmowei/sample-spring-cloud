@@ -11,5 +11,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://peer1:1111/eureka/
+    register-with-eureka: true
+    fetch-registry: true
   server:
     enable-self-preservation: false
