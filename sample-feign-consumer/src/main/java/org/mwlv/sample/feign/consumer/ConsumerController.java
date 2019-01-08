@@ -1,4 +1,4 @@
-package org.mwlv.sample.ribbon.consumer;
+package org.mwlv.sample.feign.consumer;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,7 +15,7 @@ public class ConsumerController {
 
 	@RequestMapping(value = "/hello")
 	public String helloConsumer() {
-		return helloService.helloService();
+		return helloService.hello();
 	}
 
 }

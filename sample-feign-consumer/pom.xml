@@ -9,9 +9,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>org.mwlv</groupId>
-	<artifactId>sample-ribbon-consumer</artifactId>
+	<artifactId>sample-feign-consumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sample-ribbon-consumer</name>
+	<name>sample-feign-consumer</name>
 	<url>http://maven.apache.org</url>
 
 	<packaging>jar</packaging>
@@ -63,11 +63,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-ribbon</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-hystrix</artifactId>
+			<artifactId>spring-cloud-starter-feign</artifactId>
 		</dependency>
 		<!-- 使用log4j2 -->
 		<dependency>
@@ -90,7 +86,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>sample-ribbon-consumer</finalName>
+		<finalName>sample-feign-consumer</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

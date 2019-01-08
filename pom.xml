@@ -18,5 +18,6 @@
   	<module>sample-eureka-server</module>
   	<module>sample-hello-service</module>
   	<module>sample-ribbon-consumer</module>
+  	<module>sample-feign-consumer</module>
   </modules>
 </project>
